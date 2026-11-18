@@ -21,3 +21,12 @@ print(cm)
 ConfusionMatrixDisplay(cm, display_labels=['Pass', 'Fail']).plot()
 plt.title("Confusion Matrix")
 plt.show()
+
+'''1. Import the required libraries.
+2. Create a dataset containing Study Hours and Results.
+3. Separate input features and output values.
+4. Create and train the Decision Tree model.
+5. Predict the results and compare them with actual results.
+6. Calculate and display the confusion matrix.
+7. Plot and display the confusion matrix.
+'''

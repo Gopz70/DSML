@@ -17,3 +17,11 @@ plt.xlabel("Study Hours")
 plt.ylabel("Marks")
 plt.title("K-Means Clustering")
 plt.show()
+
+'''1. Import the required libraries.
+2. Create a dataset containing Study Hours and Marks.
+3. Create a K-Means model with 2 clusters.
+4. Train the model and group the data into clusters.
+5. Display cluster labels and cluster centres.
+6. Plot and display the clusters.
+'''

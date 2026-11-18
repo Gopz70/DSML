@@ -16,3 +16,10 @@ model.fit(X, y)
 new_data = le_weather.transform(['Sunny']).reshape(-1, 1)
 prediction = model.predict(new_data)
 print("Prediction:", le_play.inverse_transform(prediction)[0])
+
+'''1. Import the required libraries.
+2. Create a dataset containing Weather and Play values.
+3. Convert categorical values into numerical values using Label Encoder.
+4. Create and train the Naïve Bayes model.
+5. Predict whether to play when the weather is Sunny.
+6. Display the prediction.'''

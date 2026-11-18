@@ -16,3 +16,11 @@ plot_tree(model, feature_names=['Study Hours', 'Attendance'],
  class_names=['Fail', 'Pass'], filled=True)
 plt.show()
 print("Prediction:", model.predict([[5, 76]])[0])
+
+'''1. Import the required libraries.
+2. Create a dataset containing Study Hours, Attendance and Result.
+3. Separate input features and output values.
+4. Create and train the Decision Tree model.
+5. Draw and display the decision tree.
+6. Predict the result for a student with 5 study hours and 76% attendance.
+'''

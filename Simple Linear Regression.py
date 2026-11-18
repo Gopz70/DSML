@@ -15,3 +15,10 @@ plt.xlabel("Hours Studied")
 plt.ylabel("Marks")
 plt.title("Simple Linear Regression")
 plt.show()
+
+''' 1. Import the required libraries.
+2. Create a dataset containing Study Hours and Marks.
+3. Separate input (Hours) and output (Marks).
+4. Create and train the Linear Regression model.
+5. Predict marks for 6 study hours.
+6. Display the predicted marks and regression graph.'''

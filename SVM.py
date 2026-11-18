@@ -27,3 +27,10 @@ plt.title("SVM - Maximum Margin Hyperplane")
 plt.legend()
 plt.grid()
 plt.show()
+
+'''1. Import the required libraries.
+2. Create a dataset with two classes.
+3. Create and train the Linear SVM model.
+4. Find and display the support vectors.
+5. Calculate the hyperplane and margin.
+6. Plot and display the hyperplane, margins and support vectors'''
